@@ -14,10 +14,10 @@ const links = [
     label: "Features",
     href: "#Features",
   },
-  {
-    label: "Pricing",
-    href: "#Pricing",
-  },
+  // {
+  //   label: "Pricing",
+  //   href: "#Pricing",
+  // },
   {
     label: "Wall of Love",
     href: "#WallOfLove",
@@ -36,8 +36,8 @@ const Header = () => {
         <div className="flex items-center md:gap-x-12">
           <Link
             href="/"
-            aria-label="Landing Page Boilerplate"
-            title="Landing Page Boilerplate"
+            aria-label="Seed-TTS"
+            title="Seed-TTS"
             className="flex items-center space-x-1 font-bold"
           >
             <Image
@@ -48,7 +48,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              Seed-TTS
             </span>
           </Link>
         </div>
@@ -69,7 +69,7 @@ const Header = () => {
         </ul>
 
         <div className="hidden md:flex items-center gap-x-6">
-          <HeaderLinks />
+          {/* <HeaderLinks /> */}
           <ThemedButton />
           <LangSwitcher />
         </div>

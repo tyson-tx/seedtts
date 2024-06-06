@@ -1,6 +1,5 @@
 import BaiDuAnalytics from "@/app/BaiDuAnalytics";
 import GoogleAnalytics from "@/app/GoogleAnalytics";
-import { TailwindIndicator } from "@/components/TailwindIndicator";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -58,7 +57,7 @@ export default async function RootLayout({
           <main className="flex flex-col items-center py-6">{children}</main>
           <Footer />
           <Analytics />
-          <TailwindIndicator />
+          {/* <TailwindIndicator /> */}
         </ThemeProvider>
         {process.env.NODE_ENV === "development" ? (
           <></>
