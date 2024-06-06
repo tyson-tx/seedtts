@@ -1,42 +1,43 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "Página de aterrizaje",
-    "title3": "construcción rápida"
+    "title1": "Seed-TTS",
+    "title2": "Texto a voz para escenarios de conversación",
+    "title3": " ",
+    "description": "Genera voces de alta calidad, casi indistinguibles de la voz humana."
   },
   "SocialProof": {
-    "maker": "creadores construyen rápido"
+    "maker": "Usado oficialmente por usuarios"
   },
   "Feature": {
-    "title": "Características"
+    "title": "Característica"
   },
   "Pricing": {
     "title": "Precios",
-    "title2": "Obtén acceso ilimitado.",
-    "description": "La página que estás viendo actualmente es un template gratuito y de código abierto.",
-    "doYouLike": "¿Te gusta este template para páginas de aterrizaje?",
-    "follow": "Sigue mi Twitter."
+    "title2": "Obtén acceso ilimitado",
+    "description": "Actualmente estás viendo una plantilla de código abierto y gratuita.",
+    "doYouLike": "¿Te gusta esta plantilla de página de aterrizaje?",
+    "follow": "Sígueme en Twitter."
   },
   "WallOfLove": {
-    "title": "Muro del Amor",
-    "description1": "Si usas esta plantilla para página de aterrizaje y la recomiendas en tu Twitter,",
-    "description2": "por favor házmelo saber",
-    "description3": ". Exhibiré tu tweet y recomendación aquí."
+    "title": "Muro de Amor",
+    "description1": "Si usas esta plantilla de página de aterrizaje y la recomiendas en Twitter,",
+    "description2": "házmelo saber",
+    "description3": ", y mostraré tus tweets y recomendaciones aquí."
   },
   "FAQ": {
     "title": "Preguntas Frecuentes",
-    "description": "Aquí están algunas de las preguntas más frecuentes."
+    "description": "Aquí tienes algunas de las preguntas más frecuentes."
   },
   "CTA": {
-    "title": "Construye tu página de aterrizaje ahora",
-    "description1": "Construye",
-    "description2": "tu página de aterrizaje,",
-    "description3": "muestra",
-    "description4": "tu producto, y",
-    "description5": "comienza a ganar",
-    "description6": "¡dinero!"
+    "title": "Empieza a usar Seed-TTS ahora",
+    "description1": "Rápidamente",
+    "description2": "genera tu voz personalizada,",
+    "description3": "automáticamente",
+    "description4": "genera, y comienza a",
+    "description5": "crear tus propias obras",
+    "description6": "¡"
   },
   "CTAButton": {
-    "title": "Obtener Plantilla"
+    "title": "Empezar"
   }
 }

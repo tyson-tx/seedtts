@@ -1,43 +1,43 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "Seed-TTS",
+    "title2": "Text-to-Speech for Conversational Scenarios",
+    "title3": " ",
+    "description": "Generate high-quality, nearly indistinguishable from human voice speech."
   },
   "SocialProof": {
-    "maker": "makers ship fast"
+    "maker": "Officially Used by Users"
   },
   "Feature": {
-    "title": "Features"
+    "title": "Feature"
   },
   "Pricing": {
     "title": "Pricing",
-    "title2": "Get unlimited access.",
-    "description": "The page you are currently viewing is an open-source, free boilerplate.",
-    "doYouLike": "Do you like this landing page boilerplate?",
-    "follow": "Follow my Twitter."
+    "title2": "Get Unlimited Access",
+    "description": "You are currently viewing an open-source, free template.",
+    "doYouLike": "Do you like this landing page template?",
+    "follow": "Follow me on Twitter."
   },
   "WallOfLove": {
     "title": "Wall of Love",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
-    "description2": "please let me know",
-    "description3": ". I will display your tweet and recommendation here."
+    "description1": "If you use this landing page template and recommend it on Twitter,",
+    "description2": "let me know",
+    "description3": ", and I will showcase your tweets and recommendations here."
   },
   "FAQ": {
     "title": "FAQs",
     "description": "Here are some of the most frequently asked questions."
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
+    "title": "Start Using Seed-TTS Now",
+    "description1": "Quickly",
+    "description2": "generate your personalized voice,",
+    "description3": "automatically",
+    "description4": "generate, and start",
+    "description5": "creating your own works",
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Get Started"
   }
 }

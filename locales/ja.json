@@ -1,43 +1,43 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "ランディングページ",
-    "title3": "迅速に構築",
-    "description": "無料でオープンソースかつ強力なランディングページのテンプレート。さまざまなプロジェクトに理想的で、1時間以内にランディングページを作成できます。"
+    "title1": "Seed-TTS",
+    "title2": "対話シナリオ用のテキストから音声への変換",
+    "title3": " ",
+    "description": "高品質で人間の声とほとんど区別がつかない音声を生成します。"
   },
   "SocialProof": {
-    "maker": "開発者が迅速に出荷"
+    "maker": "正式に使用されているユーザー"
   },
   "Feature": {
-    "title": "Feature"
+    "title": "特徴"
   },
   "Pricing": {
-    "title": "価格設定",
-    "title2": "無制限アクセスを取得。",
-    "description": "現在閲覧中のページは、オープンソースで無料のテンプレートです。",
+    "title": "価格",
+    "title2": "無制限アクセスを取得",
+    "description": "あなたが現在見ているページは、オープンソースで無料のテンプレートです。",
     "doYouLike": "このランディングページのテンプレートは気に入りましたか？",
     "follow": "私のTwitterをフォローしてください。"
   },
   "WallOfLove": {
-    "title": "WallOfLove",
-    "description1": "このランディングページテンプレートを使用してTwitterで推奨した場合、",
+    "title": "愛の壁",
+    "description1": "このランディングページのテンプレートを使用してTwitterで推薦した場合、",
     "description2": "私に知らせてください",
-    "description3": "。あなたのツイートと推薦をここに表示します。"
+    "description3": "、ここにあなたのツイートと推薦を表示します。"
   },
   "FAQ": {
-    "title": "FAQs",
-    "description": "最も頻繁に尋ねられる質問はこちらです。"
+    "title": "よくある質問",
+    "description": "ここに最もよくある質問のいくつかがあります。"
   },
   "CTA": {
-    "title": "今すぐあなたのランディングページを構築",
-    "description1": "あなたのランディングページを",
-    "description2": "構築し、",
-    "description3": "あなたの製品を",
-    "description4": "紹介し、そして",
-    "description5": "収益を得始めましょう",
+    "title": "今すぐ Seed-TTS を使用開始",
+    "description1": "迅速に",
+    "description2": "あなたの個人化された音声を生成し、",
+    "description3": "自動的に",
+    "description4": "生成し、そして",
+    "description5": "あなた自身の作品を作り始めてください",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "テンプレートを入手"
+    "title": "始める"
   }
 }

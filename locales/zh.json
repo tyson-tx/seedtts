@@ -1,12 +1,12 @@
 {
   "Hero": {
-    "title1": "快速构建",
-    "title2": "落地页",
-    "title3": "",
-    "description": "一个免费、开源且强大的落地页模板，适用于各种项目，让你在一个小时内搭建落地页。"
+    "title1": "Seed-TTS",
+    "title2": "用于对话场景的文本转语音",
+    "title3": " ",
+    "description": "生成高质量、几乎与人类声音无法区分的语音。"
   },
   "SocialProof": {
-    "maker": "制作者快速开发"
+    "maker": "用户正式使用"
   },
   "Feature": {
     "title": "Feature"
@@ -29,15 +29,15 @@
     "description": "这里有一些最常见的问题。"
   },
   "CTA": {
-    "title": "立即构建你的落地页",
-    "description1": "构建",
-    "description2": "你的落地页，",
-    "description3": "展示",
-    "description4": "你的产品，并开始",
-    "description5": "赚取收入",
+    "title": "立即使用 Seed-TTS",
+    "description1": "快速",
+    "description2": "生成你的专属语音，",
+    "description3": "自动",
+    "description4": "生成，并开始",
+    "description5": "制作属于你的作品",
     "description6": "！"
   },
   "CTAButton": {
-    "title": "获取模板"
+    "title": "开始使用"
   }
 }
