@@ -1,8 +1,8 @@
-import { ALL_FEATURES } from "@/config/feature";
+import { ALL_FEATURES } from "@/config/demo";
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
 
-const Feature = ({
+const Demo = ({
   id,
   locale,
   langName,
@@ -51,4 +51,4 @@ const Feature = ({
   );
 };
 
-export default Feature;
+export default Demo;

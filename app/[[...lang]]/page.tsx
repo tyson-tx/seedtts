@@ -1,6 +1,6 @@
 import CTA from "@/components/home/CTA";
+import Demo from "@/components/home/Demo";
 import FAQ from "@/components/home/FAQ";
-import Feature from "@/components/home/Feature";
 import Hero from "@/components/home/Hero";
 import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
@@ -28,7 +28,7 @@ export default async function LangHome({
       <ScrollingLogos />
 
       {/* USP (Unique Selling Proposition) */}
-      <Feature id="Features" locale={dict.Feature} langName={langName} />
+      <Demo id="Demo" locale={dict.Demo} langName={langName} />
 
       {/* Pricing */}
       <Pricing id="Pricing" locale={dict.Pricing} langName={langName} />

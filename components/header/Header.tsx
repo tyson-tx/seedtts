@@ -1,5 +1,5 @@
 "use client";
-import HeaderLinks from "@/components/header/HeaderLinks";
+// import HeaderLinks from "@/components/header/HeaderLinks";
 import { LangSwitcher } from "@/components/header/LangSwitcher";
 import { siteConfig } from "@/config/site";
 import { MenuIcon } from "lucide-react";
@@ -11,8 +11,8 @@ import { ThemedButton } from "../ThemedButton";
 
 const links = [
   {
-    label: "Features",
-    href: "#Features",
+    label: "Demo",
+    href: "#Demo",
   },
   // {
   //   label: "Pricing",
@@ -137,7 +137,7 @@ const Header = () => {
                 <div className="pt-2">
                   <div className="py-2 font-bold">Links</div>
                   <div className="flex items-center gap-x-5 justify-between">
-                    <HeaderLinks />
+                    {/* <HeaderLinks /> */}
                     <div className="flex items-center justify-end gap-x-5">
                       <ThemedButton />
                       <LangSwitcher />
