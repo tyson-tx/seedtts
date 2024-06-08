@@ -2,7 +2,6 @@ import CTA from "@/components/home/CTA";
 import Demo from "@/components/home/Demo";
 import FAQ from "@/components/home/FAQ";
 import Hero from "@/components/home/Hero";
-import Pricing from "@/components/home/Pricing";
 import ScrollingLogos from "@/components/home/ScrollingLogos";
 import SocialProof from "@/components/home/SocialProof";
 import WallOfLove from "@/components/home/WallOfLove";
@@ -31,7 +30,7 @@ export default async function LangHome({
       <Demo id="Demo" locale={dict.Demo} langName={langName} />
 
       {/* Pricing */}
-      <Pricing id="Pricing" locale={dict.Pricing} langName={langName} />
+      {/* <Pricing id="Pricing" locale={dict.Pricing} langName={langName} /> */}
 
       {/* Testimonials / Wall of Love */}
       <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />
