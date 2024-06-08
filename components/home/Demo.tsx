@@ -1,5 +1,4 @@
-import { ALL_FEATURES } from "@/config/demo";
-import React from "react";
+import { ALL_Demo } from "@/config/demo"; // 确保路径正确
 import { RoughNotation } from "react-rough-notation";
 
 const Demo = ({
@@ -11,7 +10,8 @@ const Demo = ({
   locale: any;
   langName: string;
 }) => {
-  const FEATURES = ALL_FEATURES[`FEATURES_${langName.toUpperCase()}`];
+  const FEATURES = ALL_Demo[`Demo_${langName.toUpperCase()}`];
+
   return (
     <section
       id={id}
@@ -22,28 +22,27 @@ const Demo = ({
           {locale.title}
         </RoughNotation>
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {FEATURES?.map((feature, index) => (
           <div
-            key={feature.title}
+            key={index}
             className={`
               flex flex-col items-center text-center px-8 py-6 border-b
-              ${index === 0 ? "md:border-r" : ""}
-              ${index === 1 ? "lg:border-r" : ""}
-              ${index === 2 ? "md:border-r lg:border-r-0" : ""}
-              ${index === 3 ? "lg:border-b-0 lg:border-r" : ""}
-              ${index === 4 ? "md:border-b-0 md:border-r" : ""}
-              ${index === 5 ? "border-b-0 border-r-0" : ""}
+              ${index % 3 !== 2 ? "md:border-r" : ""}
+              ${index < 3 ? "lg:border-b" : ""}
             `}
           >
-            <div className="p-4 w-16 h-16 dark:text-white rounded-full flex items-center justify-center">
+            {/* <div className="p-4 w-16 h-16 dark:text-white rounded-full flex items-center justify-center">
               {feature.icon &&
                 React.createElement(feature.icon, { className: "text-2xl" })}
-            </div>
-            <h2 className={"text-xl font-semibold mb-2"}>{feature.title}</h2>
-            <p className="text-slate-700 dark:text-slate-400">
-              {feature.content}
-            </p>
+            </div> */}
+            <p className="text-xl font-semibold mb-2">{feature.content}</p>
+            {feature.mediaUrl && (
+              <audio controls className="mt-4">
+                <source src={feature.mediaUrl} type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
+            )}
           </div>
         ))}
       </div>
